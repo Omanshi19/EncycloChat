@@ -1,4 +1,4 @@
-# MyWebUI 🤖
+# EncycloChat 🤖
 
 A **self-hosted, privacy-first AI chat interface** — your personal Open WebUI-style app supporting Ollama (local models) and OpenAI-compatible APIs.
 
