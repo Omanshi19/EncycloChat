@@ -1,6 +1,6 @@
 # EncycloChat 🤖
 
-A **self-hosted, privacy-first AI chat interface** — your personal ChatBot.
+EncycloChat is a full-stack AI chat web app powered by Groq's lightning-fast LLMs. It features user authentication, chat history and a clean UI — all self-hosted and customizable.
 
 ![Stack](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square)
 ![Stack](https://img.shields.io/badge/Frontend-React+Vite-61dafb?style=flat-square)
