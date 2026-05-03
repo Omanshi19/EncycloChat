@@ -1,6 +1,6 @@
 # EncycloChat 🤖
 
-A **self-hosted, privacy-first AI chat interface** — your personal Open WebUI-style app supporting Ollama (local models) and OpenAI-compatible APIs.
+A **self-hosted, privacy-first AI chat interface** — your personal ChatBot.
 
 ![Stack](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square)
 ![Stack](https://img.shields.io/badge/Frontend-React+Vite-61dafb?style=flat-square)
