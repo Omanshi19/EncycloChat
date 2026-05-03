@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  mywebui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mywebui
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production-use-strong-random-string}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_API_BASE=${OPENAI_API_BASE:-https://api.openai.com/v1}
+      - DB_PATH=/app/data/mywebui.db
+      - UPLOAD_DIR=/app/data/uploads
+    volumes:
+      - mywebui_data:/app/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/auth/me"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  mywebui_data:
+    driver: local
