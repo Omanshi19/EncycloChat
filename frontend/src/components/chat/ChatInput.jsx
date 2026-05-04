@@ -46,20 +46,6 @@ export default function ChatInput({ onSend, onStop, disabled, placeholder, isStr
         style={{ scrollbarWidth: 'none' }}
       />
 
-      {/* Bottom bar */}
-      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-between px-3 pb-3">
-        <div className="flex items-center gap-1">
-          <button className="p-1.5 text-surface-500 hover:text-surface-300 hover:bg-surface-800 rounded-lg transition-colors" title="Attach file">
-            <Paperclip className="w-4 h-4" />
-          </button>
-          <button className="p-1.5 text-surface-500 hover:text-surface-300 hover:bg-surface-800 rounded-lg transition-colors" title="Voice input">
-            <Mic className="w-4 h-4" />
-          </button>
-          <button className="p-1.5 text-surface-500 hover:text-surface-300 hover:bg-surface-800 rounded-lg transition-colors" title="Web search">
-            <Globe className="w-4 h-4" />
-          </button>
-        </div>
-
         <div className="flex items-center gap-2">
           <span className="text-xs text-surface-600">
             {text.length > 0 ? `${text.length} chars` : 'Shift+Enter for newline'}
