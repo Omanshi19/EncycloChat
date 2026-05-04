@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { Send, Paperclip, Mic, Square, Globe } from 'lucide-react'
 
 export default function ChatInput({ onSend, onStop, disabled, placeholder, isStreaming }) {
   const [text, setText] = useState('')
