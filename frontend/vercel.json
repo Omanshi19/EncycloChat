@@ -1,10 +1,9 @@
-cat > ~/Downloads/mywebui/frontend/vercel.json << 'EOF'
 {
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://encyclochat-backend.onrender.com"
-    }
-  ]
-}
-EOF
+    "outputDirectory": "build",
+    "rewrites": [
+      {
+        "source": "/api/:path*",
+        "destination": "https://encyclochat-backend.onrender.com"
+      }
+    ]
+  }
