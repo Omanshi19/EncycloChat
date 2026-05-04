@@ -1,9 +1,9 @@
 {
-    "outputDirectory": "build",
-    "rewrites": [
-      {
-        "source": "/api/:path*",
-        "destination": "https://encyclochat-backend.onrender.com"
-      }
-    ]
-  }
+  "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://encyclochat-backend.onrender.com"
+    }
+  ]
+}
