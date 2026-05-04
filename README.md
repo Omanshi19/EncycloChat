@@ -7,8 +7,9 @@
     <ins><i>LIVE DEMO LINK</i></ins>
   </a>
 </h3>
----
 
+---
+## 🚀 Tech Stack 
 <p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
