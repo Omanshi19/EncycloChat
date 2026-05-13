@@ -3,7 +3,7 @@
 > A self-hosted AI chat interface powered by Groq's free LLM API, featuring real-time streaming, conversation history and a clean dark UI.
 
 <h3 align="center">
-  <a href="https://encyclochat.vercel.app">   
+  <a href="https://encyclochat.vercel.app">    
     <ins><i>LIVE DEMO LINK</i></ins>  
   </a>    
 </h3>    
