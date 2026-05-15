@@ -6,7 +6,7 @@
   <a href="https://encyclochat.vercel.app">     
     <ins><i>LIVE DEMO LINK</i></ins>  
   </a>        
-</h3>    
+</h3>     
      
 ---   
 ## 🚀 Photos  
