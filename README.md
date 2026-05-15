@@ -4,7 +4,7 @@
 
 <h3 align="center"> 
   <a href="https://encyclochat.vercel.app">      
-    <ins><i>LIVE DEMO LINK</i></ins>  
+    <ins><i>LIVE DEMO LINK</i></ins>   
   </a>           
 </h3>     
          
